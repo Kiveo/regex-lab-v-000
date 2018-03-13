@@ -6,7 +6,7 @@ def starts_with_a_vowel?(word)
   if x[0] == "a"
     return true
   else
-    return true
+    return false
   end
 end
 
