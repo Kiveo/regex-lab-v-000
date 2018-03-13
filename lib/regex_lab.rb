@@ -4,7 +4,7 @@ def starts_with_a_vowel?(word)
   x = word.scan(/^[aeiou]/)
   # binding.pry
   if x[0] != nil
-    return false
+    return true
   else
     return true
   end
