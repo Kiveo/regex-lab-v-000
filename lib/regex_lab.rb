@@ -3,7 +3,9 @@ require 'pry'
 def starts_with_a_vowel?(word)
   x = word.scan(/^[aeiou]/)
   binding.pry
-  # if x ==
+  if x == "a"
+    return true
+  end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
