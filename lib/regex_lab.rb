@@ -5,6 +5,8 @@ def starts_with_a_vowel?(word)
   # binding.pry
   if x[0] != nil
     return true
+  else 
+    return true
   end
 end
 
