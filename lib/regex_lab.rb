@@ -12,7 +12,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  x = text.scan(/^[un]\/[ing]z/)
+  x = text.scan(/^[un]/)
   x
   binding.pry
 end
