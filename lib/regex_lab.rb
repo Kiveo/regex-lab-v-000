@@ -3,7 +3,7 @@ require 'pry'
 def starts_with_a_vowel?(word)
   x = word.scan(/^[aeiou]/i)
   # binding.pry
-  if x != nil
+  if x[0] != nil
     return true
   else
     return false
